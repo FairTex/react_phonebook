@@ -33,9 +33,6 @@ module.exports = {
             async: true,
         }),
 
-        // Находит общие зависимости библиотек и обобщает их
-        new webpack.optimize.DedupePlugin(),
-
         // Плагин, который минимизирует id, которые используются
         // webpack для подгрузки чанков и прочего
         new webpack.optimize.OccurrenceOrderPlugin(),
