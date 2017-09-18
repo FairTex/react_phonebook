@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c63e4576-98bd-4503-bf78-9add79a74e2a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -756,7 +755,7 @@
       <workItem from="1505381637789" duration="6140000" />
       <workItem from="1505461297951" duration="5957000" />
       <workItem from="1505665924116" duration="15083000" />
-      <workItem from="1505717790652" duration="4361000" />
+      <workItem from="1505717790652" duration="4380000" />
     </task>
     <task id="LOCAL-00001" summary="Настроил окружающую среду">
       <created>1505296932700</created>
@@ -779,11 +778,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505721736873</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="done!">
+      <created>1505722288760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505722288760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37157000" />
+    <option name="totallyTimeSpent" value="37176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
