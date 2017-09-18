@@ -1,0 +1,29 @@
+@import "app/css/constants.scss";
+
+input {
+  width: 100%;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+
+  border-radius: 2px;
+  border: 1px solid $grey;
+  padding: 10px;
+
+  transition: border 0.2s linear;
+
+  &:focus, &:active {
+    border-color: $green;
+    outline: none;
+  }
+
+  .-hasError & {
+    border-color: $red;
+  }
+}
+
+.FormError {
+  display: none !important;
+}

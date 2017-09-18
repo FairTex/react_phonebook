@@ -53,7 +53,7 @@ class Phonebook {
                 || contact.name.indexOf(q) !== -1
                 || contact.email.indexOf(q) !== -1;
             return contact;
-        })
+        });
     }
 }
 

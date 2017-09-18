@@ -5,6 +5,8 @@ import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import App from './App/App';
 
+require('app/css/index.scss');
+
 const renderApp = Component => {
     render(
         <AppContainer>

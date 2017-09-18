@@ -8,7 +8,7 @@ require('./App.scss');
 
 const App = observer(() => (
     <div className="container">
-        <h2 className='title'>Телефонная книга</h2>
+        <h2 className="title">Телефонная книга</h2>
         <input type="text" placeholder="Поиск" onChange={(e) => phonebook.filter(e.target.value)}/>
         <table>
             <thead>

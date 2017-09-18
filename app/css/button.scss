@@ -1,0 +1,47 @@
+@import "app/css/constants.scss";
+
+.btn {
+  padding: 10px;
+  line-height: 1;
+  cursor: pointer;
+
+  border: 1px solid $green;
+  border-radius: 2px;
+
+  background-color: $white;
+  color: $green;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  transition: border 0.05s linear;
+
+  &_add {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin: 10px;
+  }
+
+  &_clear {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    margin: 10px;
+  }
+
+  &_disabled {
+    opacity: 0.5;
+    cursor: auto;
+  }
+
+  &:active {
+    border-color: $white;
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

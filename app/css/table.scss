@@ -1,0 +1,29 @@
+@import "app/css/constants.scss";
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+
+  td, th {
+    border: 1px solid $grey;
+    padding: 10px;
+    position: relative;
+  }
+
+  th {
+    background-color: rgba(128, 128, 128, 0.1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  td {
+    text-align: left;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1;
+  }
+}
